@@ -11,8 +11,6 @@ use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\KernelBrowser;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Doctrine\Common\DataFixtures\Loader;
-use Symfony\Component\Mailer\MailerInterface;
-use Symfony\Component\Messenger\Transport\InMemory\InMemoryTransport;
 
 class CreateProductTest extends WebTestCase
 {
