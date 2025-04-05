@@ -8,4 +8,16 @@
 /var/
 /vendor/
 /docker/mysql
+/docker/mysql_test
+/.idea
 ###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+###< phpunit/phpunit ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+
+###< symfony/phpunit-bridge ###
